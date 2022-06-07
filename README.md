@@ -25,7 +25,7 @@ It is recommended to use a virtual environment ([Miniconda](https://docs.conda.i
 
 ```bash
 git clone --recursive --shallow-submodules -j 9 https://github.com/frannerin/AlloViz
-conda create AlloViz --file AlloViz/conda_explicit.txt
+conda create --name AlloViz --file AlloViz/conda_explicit.txt
 conda activate AlloViz
 ```
 
